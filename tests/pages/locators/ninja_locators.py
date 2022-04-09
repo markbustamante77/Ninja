@@ -1,0 +1,10 @@
+class NinjaLocators(object):
+    device_type_selection = '//select[@id="device_type"]'
+    sort_by_selection = '//select[@id="sort_by"]'
+    add_device_button = '//a[text()="ADD DEVICE"]'
+    device_sections = '//div[@class="device-main-box"]'
+    edit_buttons = '//a[text()="Edit"]'
+    remove_buttons = '//button[text()="Remove"]'
+    device_names = '//span[@class="device-name"]'
+    device_types = '//span[@class="device-type"]'
+    device_capacities = '//span[@class="device-capacity"]'
